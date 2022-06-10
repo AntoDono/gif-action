@@ -1,0 +1,10 @@
+name: 'Send-gif'
+author: "AntoDono"
+description: 'Sends gif'
+inputs:
+outputs:
+  gif: # id of output
+    description: 'Gif'
+runs:
+  using: 'node16'
+  main: 'index.js'
